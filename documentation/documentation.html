@@ -1,0 +1,2624 @@
+<!doctype html>
+
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8"><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<title>Photo Studio</title>
+	
+	<meta name="description" content="">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2015-02-26T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='800',easing='easeInOutExpo';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html {background-color:#FFFFFF;color:#383838;}
+		::-moz-selection {background:#222222;color:#FFFFFF;}
+		::selection {background:#222222;color:#FFFFFF;}
+		#documenter_sidebar #documenter_logo {background-image:url(assets/img/logo.png);}
+		a{color:#24a3d8;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #24a3d8, #24a3d8);
+			  background-image: -ms-linear-gradient(top, #24a3d8, #24a3d8);
+			  background-image: -webkit-gradient(linear, 0 0, 0 E83F33, from(#111111), to(#24a3d8));
+			  background-image: -webkit-linear-gradient(top, #24a3d8, #24a3d8);
+			  background-image: -o-linear-gradient(top, #24a3d8, #24a3d8);
+			  background-image: linear-gradient(top, #24a3d8, #24a3d8);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#24a3d8', endColorstr='#24a3d8', GradientType=0);
+			  border-color: #24a3d8 #24a3d8 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #24a3d8 #987F28 #bfbfbf;
+		  background-color: #987F28;
+		}
+		hr {border-top:1px solid #DDDDDD;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a {background-color:#111111; color:#DDDDDD;}
+		#documenter_sidebar ul a {-webkit-text-shadow:1px 1px 0px #212121; -moz-text-shadow:1px 1px 0px #212121; text-shadow:1px 1px 0px #212121;}
+		#documenter_sidebar ul {border-top:1px solid #000000;}
+		#documenter_sidebar ul a {border-top:1px solid #212121; border-bottom:1px solid #000000; color:#DDDDDD;}
+		#documenter_sidebar ul a:hover {background:#222222; color:#FFFFFF; border-top:1px solid #222222;}
+		#documenter_sidebar ul a.current {background:#24a3d8; padding: 10px 15px 10px 15px; color:#FFFFFF; border-top:1px solid #222222;}
+		#documenter_copyright {display:block !important; visibility:visible !important;}
+
+
+		/* Custom */
+		body {
+			font-size: 14px;
+		}
+		pre {
+			overflow: auto;
+			max-height: 400px;
+			font-size: 12px;
+		}
+		img {
+			max-width: 100%;
+		}
+		#documenter_content {
+			max-width: 1000px;
+		}
+		#documenter_content h1 {
+			margin-bottom: 10px;
+			font-size: 42px;
+			font-weight: bold;
+		}
+		#documenter_cover {
+			height: auto;
+		}
+		.page-header {
+			margin-bottom: 40px;
+		}
+		.page-header h3 {
+			font-size: 28px !important;
+			font-weight: bold !important;
+			color: #24a3d8;
+			margin: 18px 0 5px 0 !important;
+		}
+		
+	</style>
+	
+</head>
+
+<body class="documenter-project-Photo Studio">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#information" title="Information">Information</a></li>
+			<li><a href="#files_structure" title="Files Structure">Files Structure</a></li>
+			<li><a href="#installation" title="Installation">Installation</a></li>
+			<li><a href="#html_structure" title="HTML Structure">HTML Structure</a></li>
+			<li><a href="#javascript" title="Javascript">Javascript</a></li>
+			<li><a href="#customization_styles" title="Customization & Styles">Customization & Styles</a></li>
+			<li><a href="#sliders_carousels" title="Sliders & Carousels">Sliders & Carousels</a></li>
+			<li><a href="#video_background" title="Video background">Video Background</a></li>
+			<li><a href="#contact_form" title="Contact Form">Contact Form</a></li>
+			<li><a href="#icons" title="Icons">Icons</a></li>
+			<li><a href="#fonts" title="Fonts">Fonts</a></li>
+			<li><a href="#source_credits" title="Source & Credits">Source & Credits</a></li>
+
+
+		</ul>
+		<div id="documenter_copyright">
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+
+	<div id="documenter_content">
+
+	<section id="documenter_cover">
+		<h1>Photo Studio</h1>
+		<h2>Photography Portfolio HTML Website Template</h2>
+		<div id="documenter_buttons">
+			
+		</div>
+		<hr>
+		<ul>
+		<li><a href="#">http://templatemonster.com</a></li>
+		 
+		</ul>
+
+		<p><img alt="" src="assets/img/img-1.png"></p>
+	</section>
+	
+	<section id="information">
+	<div class="page-header"><h3>Information</h3><hr class="notop"></div>
+	<p>
+		This template based on Bootstrap Framework.&nbsp;Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. More information:&nbsp;<a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com</a>
+	</p>
+	<br>
+	<div class="alert alert-error">
+		<h5>
+			<strong>Important!</strong></h5>
+		<p>
+			<strong>This template requires that you are familiar with at least HTML and CSS. If you are not familiar with HTML and CSS, I highly recommend that you to hire a specialist. It will save your time and you will get only positive emotions while using this product.</strong></p>
+		<p>
+			It is also required that you are familiar with <a href="http://getbootstrap.com" target="_blank"><strong>Bootstrap</strong></a>. If not, then it is strongly recommended that you will familiarize yourself with how the Bootstrap works before you begin to customize this template.</p>
+		<p>
+			<strong>Photo Studio</strong> - is a simple HTML template. HTML is static, this means no dynamic features (no PHP and MySQL). This template is just a good starting point if you want to create your own web site contains mainly the design elements you can use.</p>
+		<p>
+			<strong>* Some parts may not work properly in your local computer. Upload template to your web server in order to function properly!</strong>
+		</p>
+	</div>
+</section>
+
+
+<section id="files_structure">
+	<div class="page-header"><h3>Files Structure</h3><hr class="notop"></div>
+<p>
+	All template files are located in folder named &quot;UPLOAD&quot;.&nbsp;</p>
+<pre class="prettyprint lang-plain linenums">
++-- Photo Studio /
+	+-- assets /
+	&brvbar;	+-- css /
+	&brvbar;	&brvbar;    +-- dark-style.css (template dark style)
+	&brvbar;	&brvbar;    +-- helper.css (helper CSS classes)
+	&brvbar;	&brvbar;    +-- theme.css (template master CSS)
+	&brvbar;	+-- img /
+	&brvbar;	&brvbar;    +-- ...all images used
+	&brvbar;	+-- js /
+	&brvbar;	&brvbar;    +-- theme.js (template JS)
+	&brvbar;	+-- vendor /
+	&brvbar;	&brvbar;    +-- bootstrap (all Bootstrap files)
+	&brvbar;	&brvbar;    +-- ...all external scripts/plugins
+	&brvbar;
+	+-- favicon.ico
+	+-- mail.php
+	+-- index.html
+	+-- about-me.html
+	+-- about-me-2.html
+	+-- ...all .html files
+</pre>
+</section>
+
+
+<section id="installation">
+	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+	<p>	Simply upload all template files (can be found in &quot;UPLOAD&quot; folder) to your server using your favorite FTP client (I recommend <a href="https://filezilla-project.org/" target="_blank">FileZilla</a>). Once uploaded, point your browser to your site URL and you are done.</p>
+	<p><img alt="" src="assets/img/img-2.jpg"></p>
+</section>
+
+
+<section id="html_structure">
+	<div class="page-header"><h3>HTML Structure</h3><hr class="notop"></div>
+	<p>This template based on Bootstrap Framework. Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. More information: <a href="http://getbootstrap.com" target="_blank">http://getbootstrap.com</a></p>
+	<p>&nbsp;</p>
+	<h4 id="html_structure_basic_html_markup_for_bootstrap_nbsp_grid_system">Basic HTML Markup for Bootstrap&nbsp; grid system:</h4>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;row&quot;&gt;
+     &lt;div class=&quot;col-md-8&quot;&gt;.col-md-8&lt;/div&gt;
+     &lt;div class=&quot;col-md-4&quot;&gt;.col-md-4&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+     &lt;div class=&quot;col-md-4&quot;&gt;.col-md-4&lt;/div&gt;
+     &lt;div class=&quot;col-md-4&quot;&gt;.col-md-4&lt;/div&gt;
+     &lt;div class=&quot;col-md-4&quot;&gt;.col-md-4&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+     &lt;div class=&quot;col-md-6&quot;&gt;.col-md-6&lt;/div&gt;
+     &lt;div class=&quot;col-md-6&quot;&gt;.col-md-6&lt;/div&gt;
+&lt;/div&gt;</pre>
+<p>
+	More information about&nbsp;Bootstrap grid system: <a href="http://getbootstrap.com/css/#grid" target="_blank">http://getbootstrap.com/css/#grid</a></p>
+<p>
+	&nbsp;</p>
+
+
+<h4 id="html_structure_basic_html_markup_for_theme_section">Basic HTML Markup for template content:</h4>
+<pre class="prettyprint lang-html linenums">
+&lt;body id=&quot;body&quot; class=&quot;animsition tt-boxed&quot;&gt;
+
+&lt;header class=&quot;section page-header&quot;&gt;
+  &lt;!-- RD Navbar--&gt;
+  &lt;div class=&quot;rd-navbar-wrap&quot;&gt;
+    &lt;nav class=&quot;rd-navbar&quot; data-layout=&quot;rd-navbar-fixed&quot; data-sm-layout=&quot;rd-navbar-fixed&quot;
+         data-md-layout=&quot;rd-navbar-static&quot; data-md-device-layout=&quot;rd-navbar-fixed&quot; data-lg-layout=&quot;rd-navbar-static&quot;
+         data-lg-device-layout=&quot;rd-navbar-static&quot; data-md-stick-up-offset=&quot;80px&quot; data-lg-stick-up-offset=&quot;46px&quot;
+         data-md-stick-up=&quot;true&quot; data-lg-stick-up=&quot;true&quot;&gt;
+      &lt;div class=&quot;rd-navbar-collapse-toggle rd-navbar-fixed-element-1&quot; data-rd-navbar-toggle=&quot;.rd-navbar-collapse&quot;&gt;
+        &lt;span&gt;&lt;/span&gt;&lt;/div&gt;
+
+      &lt;div class=&quot;rd-navbar-main-outer&quot;&gt;
+        &lt;div class=&quot;rd-navbar-main&quot;&gt;
+          &lt;!-- RD Navbar Panel--&gt;
+          &lt;div class=&quot;rd-navbar-panel&quot;&gt;
+            &lt;!-- RD Navbar Toggle--&gt;
+            &lt;button class=&quot;rd-navbar-toggle&quot; data-rd-navbar-toggle=&quot;.rd-navbar-nav-wrap&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/button&gt;
+            &lt;!-- RD Navbar Brand --&gt;
+            &lt;div class=&quot;rd-navbar-brand&quot;&gt;&lt;a class=&quot;brand&quot; href=&quot;index.html&quot;&gt;
+              &lt;img class=&quot;brand-logo-dark&quot; src=&quot;assets/img/logo-dark.png&quot; alt=&quot;&quot; width=&quot;172&quot; height=&quot;32&quot;/&gt;
+              &lt;img class=&quot;brand-logo-dark&quot; src=&quot;assets/img/logo-light.png&quot; alt=&quot;&quot; width=&quot;172&quot; height=&quot;32&quot;/&gt;
+            &lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;rd-navbar-main-element&quot;&gt;
+            &lt;div class=&quot;rd-navbar-nav-wrap&quot;&gt;
+              &lt;!-- RD Navbar Nav--&gt;
+              &lt;ul class=&quot;rd-navbar-nav&quot;&gt;
+                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;
+                  &lt;!-- RD Navbar Dropdown--&gt;
+                  &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;home-landing.html&quot;&gt;Landing&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;home-intro-slideshow.html&quot;&gt;Slideshow&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;home-intro-full-screen.html&quot;&gt;Full Slideshow&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;categories-carousel.html&quot;&gt;Carousel&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;home-intro-image.html&quot;&gt;Static Image&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;home-intro-video.html&quot;&gt;Video&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;home-intro-video-full-screen.html&quot;&gt;Full Video&lt;/a&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/li&gt;
+
+                &lt;li&gt;
+                  &lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;
+                  &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;about-me.html&quot;&gt;About 1&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;about-me-fluid.html&quot;&gt;About Full Width&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;about-me-2.html&quot;&gt;About 2&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;about-me-2-fluid.html&quot;&gt;About 2 Full Width&lt;/a&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/li&gt;
+
+                &lt;li class=&quot;&quot;&gt;
+                  &lt;a href=&quot;#&quot;&gt;Portfolio&lt;/a&gt;
+                  &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+
+                    &lt;li&gt;
+                      &lt;a href=&quot;#&quot;&gt;Albums&lt;/a&gt;
+                      &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                        &lt;li&gt;
+                          &lt;a href=&quot;#&quot;&gt;Archive&lt;/a&gt;
+                          &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                            &lt;li&gt;&lt;a href=&quot;albums-archive.html&quot;&gt;Default&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;albums-archive-fluid.html&quot;&gt;Fluid&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;albums-archive-fluid-2.html&quot;&gt;Fluid 2&lt;/a&gt;&lt;/li&gt;
+                          &lt;/ul&gt;
+                        &lt;/li&gt;
+
+                        &lt;li&gt;
+                          &lt;a href=&quot;#&quot;&gt;Carousel&lt;/a&gt;
+                          &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                            &lt;li&gt;&lt;a href=&quot;albums-carousel.html&quot;&gt;Albums Carousel&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;albums-carousel-no-crop.html&quot;&gt;Carousel No Crop&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;albums-carousel-split.html&quot;&gt;Carousel Split&lt;/a&gt;&lt;/li&gt;
+                          &lt;/ul&gt;
+                        &lt;/li&gt;
+
+                        &lt;li&gt;
+                          &lt;a href=&quot;#&quot;&gt;Grid&lt;/a&gt;
+                          &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                            &lt;li&gt;&lt;a href=&quot;albums-grid.html&quot;&gt;Grid Default&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;albums-grid-2.html&quot;&gt;Grid 2&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;albums-grid-fluid.html&quot;&gt;Grid Fluid&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;albums-grid-fluid-2.html&quot;&gt;Grid Fluid 2&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;albums-grid-fluid-3.html&quot;&gt;Grid Fluid 3&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;albums-grid-fluid-4.html&quot;&gt;Grid Fluid 4&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;albums-grid-no-crop.html&quot;&gt;Grid No Crop&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;albums-grid-simple.html&quot;&gt;Grid Simple&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;albums-grid-styles.html&quot;&gt;Grid Item Styles&lt;/a&gt;&lt;/li&gt;
+                          &lt;/ul&gt;
+                        &lt;/li&gt;
+
+
+                        &lt;li&gt;&lt;a href=&quot;albums-one-column.html&quot;&gt;One Column&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;albums-one-column-fluid.html&quot;&gt;One Column Fluid&lt;/a&gt;&lt;/li&gt;
+
+                        &lt;li&gt;&lt;a href=&quot;albums-thumbnails-list.html&quot;&gt;Thumbnails List&lt;/a&gt;&lt;/li&gt;
+                      &lt;/ul&gt;
+                    &lt;/li&gt;
+
+
+                    &lt;li&gt;
+                      &lt;a href=&quot;#&quot;&gt;Gallery&lt;/a&gt;
+                      &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+
+                        &lt;li&gt;
+                          &lt;a href=&quot;#&quot;&gt;Gallery Carousel&lt;/a&gt;
+                          &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-carousel.html&quot;&gt;Carousel Default&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-carousel-2.html&quot;&gt;Carousel + Info&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-carousel-center.html&quot;&gt;Carousel Center&lt;/a&gt;&lt;/li&gt;
+                          &lt;/ul&gt;
+                        &lt;/li&gt;
+
+
+                        &lt;li&gt;
+                          &lt;a href=&quot;#&quot;&gt;Gallery Grid&lt;/a&gt;
+                          &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-grid.html&quot;&gt;Grid Default&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-grid-2.html&quot;&gt;Grid 2&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-grid-cropped.html&quot;&gt;Grid Cropped&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-grid-fluid.html&quot;&gt;Grid Fluid&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-grid-fluid-2.html&quot;&gt;Grid Fluid 2&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-grid-fluid-2-cropped.html&quot;&gt;Grid Fluid 2 Cropped&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-grid-fluid-3.html&quot;&gt;Grid Fluid 3&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-grid-fluid-3-cropped.html&quot;&gt;Grid Fluid 3 Cropped&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-grid-simple.html&quot;&gt;Grid Simple&lt;/a&gt;&lt;/li&gt;
+                          &lt;/ul&gt;
+                        &lt;/li&gt;
+
+
+                        &lt;li&gt;
+                          &lt;a href=&quot;#&quot;&gt;Gallery + Sidebar&lt;/a&gt;
+                          &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-sidebar-left.html&quot;&gt;Sidebar Left&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-sidebar-left-simple.html&quot;&gt;Sidebar Left Simple&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-sidebar-right.html&quot;&gt;Sidebar Right&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-sidebar-right-simple.html&quot;&gt;Sidebar Right Simple&lt;/a&gt;&lt;/li&gt;
+                          &lt;/ul&gt;
+                        &lt;/li&gt;
+
+
+                        &lt;li&gt;
+                          &lt;a href=&quot;#&quot;&gt;Gallery Styles&lt;/a&gt;
+                          &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-grid-style-default.html&quot;&gt;Default&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-grid-style-colored.html&quot;&gt;Colored&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;gallery-single-grid-style-zoom-only.html&quot;&gt;Zoom Only&lt;/a&gt;&lt;/li&gt;
+                          &lt;/ul&gt;
+                        &lt;/li&gt;
+
+                      &lt;/ul&gt;
+                    &lt;/li&gt;
+
+
+                    &lt;li&gt;
+                      &lt;a href=&quot;#&quot;&gt;Categories&lt;/a&gt;
+                      &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                        &lt;li&gt;&lt;a href=&quot;categories-carousel.html&quot;&gt;Carousel&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;categories-grid.html&quot;&gt;Grid&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;categories-grid-fluid.html&quot;&gt;Grid Fluid&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;categories-grid-fluid-2.html&quot;&gt;Grid Fluid 2&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;categories-grid-fluid-3.html&quot;&gt;Grid Fluid 3&lt;/a&gt;&lt;/li&gt;
+                      &lt;/ul&gt;
+                    &lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/li&gt;
+
+
+                &lt;li&gt;
+                  &lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;
+                  &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+
+                    &lt;li&gt;
+                      &lt;a href=&quot;#&quot;&gt;Blog List&lt;/a&gt;
+                      &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                        &lt;li&gt;&lt;a href=&quot;blog-list-classic.html&quot;&gt;Classic&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;blog-list-simple.html&quot;&gt;Classic Simple&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;blog-list-grid.html&quot;&gt;Grid&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;blog-list-grid-fluid.html&quot;&gt;Grid Fluid&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;blog-list-grid-no-sidebar.html&quot;&gt;Grid No Sidebar&lt;/a&gt;&lt;/li&gt;
+                      &lt;/ul&gt;
+                    &lt;/li&gt;
+
+
+                    &lt;li&gt;
+                      &lt;a href=&quot;#&quot;&gt;Blog Single Post&lt;/a&gt;
+                      &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                        &lt;li&gt;&lt;a href=&quot;blog-single.html&quot;&gt;Default&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;blog-single-alter.html&quot;&gt;Alternate&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;blog-single-simple.html&quot;&gt;Simple&lt;/a&gt;&lt;/li&gt;
+                      &lt;/ul&gt;
+                    &lt;/li&gt;
+
+
+                    &lt;li&gt;
+                      &lt;a href=&quot;#&quot;&gt;Blog Archive&lt;/a&gt;
+                      &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                        &lt;li&gt;&lt;a href=&quot;blog-archive.html&quot;&gt;Default&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;blog-archive-2.html&quot;&gt;Classic&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;blog-archive-3.html&quot;&gt;Grid&lt;/a&gt;&lt;/li&gt;
+                      &lt;/ul&gt;
+                    &lt;/li&gt;
+
+                  &lt;/ul&gt;
+                &lt;/li&gt;
+
+                &lt;li&gt;
+                  &lt;a href=&quot;#&quot;&gt;Pages&lt;/a&gt;
+                  &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                    &lt;li&gt;
+                      &lt;a href=&quot;#&quot;&gt;Layout&lt;/a&gt;
+                      &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                        &lt;li&gt;&lt;a href=&quot;page-dummy-classic.html&quot;&gt;No Sidebar&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;page-dummy-classic-sidebar-left.html&quot;&gt;Sidebar Left&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;page-dummy-classic-sidebar-right.html&quot;&gt;Sidebar Right&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;page-dummy-modern.html&quot;&gt;Modern&lt;/a&gt;&lt;/li&gt;
+                      &lt;/ul&gt;
+                    &lt;/li&gt;
+
+                    &lt;li&gt;&lt;a href=&quot;page-404.html&quot;&gt;404 Page&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;page-404-2.html&quot;&gt;404 Page 2&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;page-faq.html&quot;&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;page-pricing.html&quot;&gt;Pricing&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;page-password.html&quot;&gt;Password Protected&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;footer-styles.html&quot;&gt;Footer Styles&lt;/a&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/li&gt;
+
+                &lt;li&gt;
+                  &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+                  &lt;ul class=&quot;rd-navbar-dropdown&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;contact.html&quot;&gt;Default&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;contact-fluid.html&quot;&gt;Fluid&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;contact-simple.html&quot;&gt;Simple&lt;/a&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/li&gt;
+
+
+              &lt;/ul&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/header&gt;
+
+
+&lt;div id=&quot;body-content&quot;&gt;
+
+
+
+  &lt;section id=&quot;tt-intro&quot; class=&quot;slideshow-intro&quot;&gt;
+    &lt;div class=&quot;tt-intro-inner&quot;&gt;
+      &lt;div class=&quot;gl-carousel-wrap no-padding&quot;&gt;
+
+        &lt;div class=&quot;owl-carousel cc-height-full dots-right bg-dark&quot; data-items=&quot;1&quot; data-loop=&quot;false&quot;
+             data-nav=&quot;true&quot; data-nav-speed=&quot;500&quot; data-mouse-drag=&quot;false&quot; data-dots-speed=&quot;500&quot; data-autoplay=&quot;false&quot;
+             data-autoplay-timeout=&quot;8000&quot; data-autoplay-speed=&quot;500&quot;
+             data-autoplay-hover-pause=&quot;true&quot;&gt;
+
+          &lt;div class=&quot;cc-item&quot;&gt;
+
+            &lt;span class=&quot;cover bg-transparent-3-dark&quot;&gt;&lt;/span&gt;
+
+            &lt;div class=&quot;cc-image bg-image loader-effect-item&quot;
+                 style=&quot;background-image: url(assets/img/misc/landing-1.jpg); background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
+
+            &lt;div class=&quot;intro-caption caption-animate intro-caption-xxlg center&quot;&gt;
+
+              &lt;img src=&quot;assets/img/logo-light-xl.png&quot; alt=&quot;&quot; class=&quot; wow fadeInUp&quot; data-wow-delay=&quot;.3s&quot; style=&quot;display: inline-block; width: auto&quot; width=&quot;515&quot; height=&quot;174&quot;&gt;
+              &lt;h2 class=&quot;intro-subtitle  wow fadeInUp&quot; data-wow-delay=&quot;.5s&quot;&gt;Photography Portfolio HTML Template&lt;/h2&gt;
+              &lt;p class=&quot;intro-description max-width-1000  wow fadeInUp&quot; data-wow-delay=&quot;.7s&quot;&gt;This is a Creative, Responsive and modern HTML5 template for those who love to work with attractive and effective ideas.&lt;/p&gt;
+              &lt;div class=&quot;margin-top-30&quot;&gt;
+                &lt;a href=&quot;#&quot;
+                   class=&quot;btn btn-primary margin-top-5 margin-right-10  wow fadeInUp&quot; data-wow-delay=&quot;.9s&quot; target=&quot;_blank&quot;&gt;Buy Template&lt;/a&gt;
+                &lt;a href=&quot;albums-grid-fluid-2.html&quot; class=&quot;btn btn-white-bordered margin-top-5  wow fadeInUp&quot; data-wow-delay=&quot;1.1s&quot;&gt;View More&lt;/a&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+
+
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;section-lg text-center &quot;&gt;
+    &lt;div class=&quot;tt-wrap&quot;&gt;
+      &lt;h1 class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;What You Get With Photo Studio&lt;/h1&gt;
+      &lt;hr class=&quot;hr-short&quot;&gt;
+      &lt;div class=&quot;row text-left&quot;&gt;
+        &lt;div class=&quot;col-sm-6 col-md-4 wow fadeInUp&quot; data-wow-delay=&quot;.3s&quot;&gt;
+          &lt;div class=&quot;unit &quot; &gt;
+            &lt;div class=&quot;unit-left&quot;&gt;
+              &lt;span class=&quot;icon-custom fa  fa-user-o&quot;&gt;&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;unit-body&quot;&gt;
+              &lt;h3&gt;Advanced UI Kit&lt;/h3&gt;
+              &lt;p&gt;Make your website more attractive with our Advanced UI Kit.&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;div class=&quot;col-sm-6 col-md-4  wow fadeInUp&quot; data-wow-delay=&quot;.5s&quot;&gt;
+          &lt;div class=&quot;unit &quot;&gt;
+            &lt;div class=&quot;unit-left&quot;&gt;
+              &lt;span class=&quot;icon-custom fa   fa-television&quot;&gt;&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;unit-body&quot;&gt;
+              &lt;h3&gt;Responsiveness&lt;/h3&gt;
+              &lt;p&gt;Make website fully responsive for all devices and screen resolutions.&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;div class=&quot;col-sm-6 col-md-4 wow fadeInUp&quot; data-wow-delay=&quot;.7s&quot;&gt;
+          &lt;div class=&quot;unit unit-lst&quot;&gt;
+            &lt;div class=&quot;unit-left&quot;&gt;
+              &lt;span class=&quot;icon-custom fa  fa-bold&quot;&gt;&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;unit-body&quot;&gt;
+              &lt;h3&gt;Bootstrap&lt;/h3&gt;
+              &lt;p&gt;Create what you need with our powerful bootstrap toolkit.&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;/section&gt;
+
+
+
+  &lt;section class=&quot;section-xl  section-box-counter text-center section-dark bg-image-fixed&quot; style=&quot;background-image: url(assets/img/misc/misc-6.jpg); background-position: 50% 50%;&quot;&gt;
+    &lt;div class=&quot;tt-wrap&quot;&gt;
+      &lt;div class=&quot;row text-left&quot;&gt;
+        &lt;div class=&quot;col-md-3 wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+          &lt;article class=&quot;box-counter&quot;&gt;
+            &lt;div class=&quot;box-counter-main&quot;&gt;
+              &lt;div class=&quot;counter&quot;&gt;78&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;box-counter-divider&quot;&gt;&lt;/div&gt;
+            &lt;p class=&quot;box-counter-title&quot;&gt;Pages&lt;/p&gt;
+          &lt;/article&gt;
+          &lt;/div&gt;
+        &lt;div class=&quot;col-md-3 wow fadeInUp&quot; data-wow-delay=&quot;.3s&quot;&gt;
+          &lt;article class=&quot;box-counter wow&quot;&gt;
+            &lt;div class=&quot;box-counter-main&quot;&gt;
+              &lt;div class=&quot;counter&quot;&gt;6&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;box-counter-divider&quot;&gt;&lt;/div&gt;
+            &lt;p class=&quot;box-counter-title&quot;&gt;Main Layouts&lt;/p&gt;
+          &lt;/article&gt;
+          &lt;/div&gt;
+        &lt;div class=&quot;col-md-3 wow fadeInUp&quot; data-wow-delay=&quot;.5s&quot;&gt;
+          &lt;article class=&quot;box-counter&quot;&gt;
+            &lt;div class=&quot;box-counter-main&quot;&gt;
+              &lt;div class=&quot;counter&quot;&gt;40&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;box-counter-divider&quot;&gt;&lt;/div&gt;
+            &lt;p class=&quot;box-counter-title&quot;&gt;Portfolio Layouts&lt;/p&gt;
+          &lt;/article&gt;
+          &lt;/div&gt;
+        &lt;div class=&quot;col-md-3 wow fadeInUp&quot; data-wow-delay=&quot;.7s&quot;&gt;
+          &lt;article class=&quot;box-counter&quot;&gt;
+            &lt;div class=&quot;box-counter-main&quot;&gt;
+              &lt;div class=&quot;counter&quot;&gt;10&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;box-counter-divider&quot;&gt;&lt;/div&gt;
+            &lt;p class=&quot;box-counter-title&quot;&gt;Blog Layouts&lt;/p&gt;
+          &lt;/article&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;/section&gt;
+
+
+
+  &lt;section id=&quot;demo-section&quot; class=&quot;margin-top-75&quot;&gt;
+    &lt;div class=&quot;isotope-wrap&quot;&gt; 
+      
+      &lt;div class=&quot;tt-heading text-center tt-heading-xxlg padding-top-40 padding-bottom-40&quot;&gt;
+        &lt;div class=&quot;tt-heading-inner&quot;&gt;
+          &lt;h1 class=&quot;tt-heading-title wow fadeInUp&quot; data-wow-delay=&quot;.3s&quot;&gt;Demonstration&lt;/h1&gt;
+          &lt;div class=&quot;tt-heading-subtitle wow fadeInUp&quot; data-wow-delay=&quot;.5s&quot;&gt;Please Choose what you want&lt;/div&gt;
+          &lt;hr class=&quot;hr-short wow fadeInUp&quot; data-wow-delay=&quot;.7s&quot;&gt;
+        &lt;/div&gt; 
+      &lt;/div&gt;
+
+      
+      &lt;div class=&quot;isotope col-4 gutter-3&quot;&gt;
+
+
+        &lt;div class=&quot;isotope-top-content&quot;&gt;
+
+
+          &lt;div class=&quot;isotope-filter fi-center &quot;&gt;
+            &lt;div class=&quot;isotope-filter-button&quot;&gt;
+              &lt;span class=&quot;ifb-icon&quot;&gt;&lt;i class=&quot;fa fa-sliders&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+              &lt;span class=&quot;ifb-icon-close&quot;&gt;&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;&lt;/span&gt; &lt;!-- effect on small screens!) --&gt;
+            &lt;/div&gt;
+            &lt;ul class=&quot;isotope-filter-links&quot;&gt;
+              &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;active wow fadeInUp&quot; data-wow-delay=&quot;.5s&quot; data-filter=&quot;*&quot;&gt;All&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#&quot;  class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.6s&quot; data-filter=&quot;.home&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#&quot;  class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.7s&quot; data-filter=&quot;.albums&quot;&gt;Albums&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#&quot;  class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.8s&quot; data-filter=&quot;.gallery&quot;&gt;Gallery&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#&quot;  class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.9s&quot; data-filter=&quot;.categories&quot;&gt;Categories&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#&quot;  class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;1s&quot; data-filter=&quot;.blog&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#&quot;  class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;1.1s&quot; data-filter=&quot;.pages&quot;&gt;Pages&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+
+
+        &lt;/div&gt;
+        &lt;div class=&quot;isotope-items-wrap gli-colored&quot; &gt;
+
+          
+          &lt;div class=&quot;grid-sizer&quot;&gt;&lt;/div&gt;
+
+
+
+          &lt;div class=&quot;isotope-item home&quot; &gt;
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;home-landing.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/home-landing.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Home - &lt;span&gt;Landing&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+         
+
+
+
+          &lt;div class=&quot;isotope-item home&quot; &gt;
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.11s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;home-intro-slideshow.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/home-intro-slideshow.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Home - &lt;span&gt;Slideshow&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          
+          &lt;div class=&quot;isotope-item home&quot; &gt;
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.12s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;home-intro-full-screen.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/home-intro-full-screen.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Home - &lt;span&gt;Full Screen Slideshow&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item home&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.13s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;categories-carousel.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/categories-carousel.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Home - &lt;span&gt;Categories Carousel&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item home&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.14s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;home-intro-image.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/home-intro-image.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Home - &lt;span&gt;Static Image Intro&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item home&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.15s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;home-intro-video.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/home-intro-video.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Home - &lt;span&gt;Video Intro&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item home&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.16s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;home-intro-video-full-screen.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/home-intro-video-full-screen.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Home - &lt;span&gt;Full Screen Video Intro&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.17s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-grid.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-grid.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Grid Default&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.18s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-grid-2.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-grid-2.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Grid 2&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.19s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-grid-fluid.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-grid-fluid.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Grid Fluid&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-grid-fluid-2.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-grid-fluid-2.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Grid Fluid 2&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.11s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-grid-fluid-3.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-grid-fluid-3.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Grid Fluid 3&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.12s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-grid-fluid-4.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-grid-fluid-4.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Grid Fluid 4&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.13s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-grid-no-crop.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-grid-no-crop.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Grid No Crop&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.14s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-grid-simple.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-grid-simple.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Grid Simple&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.15s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-grid-styles.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-grid-styles.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Grid Item Styles&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.16s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-carousel.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-carousel.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Carousel&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.17s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-carousel-no-crop.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-carousel-no-crop.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Carousel No Crop&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.18s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-carousel-split.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-carousel-split.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Carousel Split&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.19s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-one-column.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-one-column.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;One Column&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.11s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-one-column-fluid.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-one-column-fluid.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;One Column Fluid&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+
+
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.12s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-thumbnails-list.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-thumbnails-list.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Thumbnails List&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.13s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-archive.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-archive.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Archive&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.14s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-archive-fluid.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-archive-fluid.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Archive Fluid&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item albums&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.15s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;albums-archive-fluid-2.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/albums-archive-fluid-2.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Albums - &lt;span&gt;Archive Fluid 2&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.16s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-grid.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-grid.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Grid Default&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.17s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-grid-2.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-grid-2.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Grid 2&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.18s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-grid-cropped.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-grid-cropped.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Grid Cropped&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.19s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-grid-fluid.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-grid-fluid.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Grid Fluid&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.11s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-grid-fluid-2.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-grid-fluid-2.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Grid Fluid 2&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.12s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-grid-fluid-2-cropped.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-grid-fluid-2-cropped.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Grid Fluid 2 Cropped&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.13s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-grid-fluid-3.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-grid-fluid-3.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Grid Fluid 3&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.14s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-grid-fluid-3-cropped.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-grid-fluid-3-cropped.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Grid Fluid 3 Cropped&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.15s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-grid-simple.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-grid-simple.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Grid Simple&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.16s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-carousel.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-carousel.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Carousel&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.17s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-carousel-2.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-carousel-2.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Carousel + Info&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.18s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-carousel-center.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-carousel-center.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Carousel Center&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.19s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-sidebar-left.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-sidebar-left.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Sidebar Left&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.11s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-sidebar-left-simple.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-sidebar-left-simple.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Sidebar Left Simple&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.12s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-sidebar-right.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-sidebar-right.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Sidebar Right&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item gallery&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.13s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;gallery-single-sidebar-right-simple.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/gallery-single-sidebar-right-simple.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Gallery - &lt;span&gt;Sidebar Right Simple&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item categories&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.14s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;categories-carousel.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/categories-carousel.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Categories - &lt;span&gt;Carousel&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item categories&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.15s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;categories-grid.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/categories-grid.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Categories - &lt;span&gt;Grid&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item categories&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.16s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;categories-grid-fluid.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/categories-grid-fluid.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Categories - &lt;span&gt;Grid Fluid&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item categories&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.17s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;categories-grid-fluid-2.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/categories-grid-fluid-2.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Categories - &lt;span&gt;Grid Fluid 2&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item categories&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.18s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;categories-grid-fluid-3.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/categories-grid-fluid-3.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Categories - &lt;span&gt;Grid Fluid 3&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item blog&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.19s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;blog-list-classic.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/blog-list-classic.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Blog List - &lt;span&gt;Classic&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item blog&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;blog-list-simple.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/blog-list-simple.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Blog List - &lt;span&gt;Classic Simple&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item blog&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;blog-list-grid.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/blog-list-grid.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Blog List - &lt;span&gt;Grid&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item blog&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;blog-list-grid-no-sidebar.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/blog-list-grid-no-sidebar.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Blog List - &lt;span&gt;Grid Without Sidebar&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item blog&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;blog-list-grid-fluid.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/blog-list-grid-fluid.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Blog List - &lt;span&gt;Grid Fluid Without Sidebar&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item blog&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;blog-single.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/blog-single.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Blog Single - &lt;span&gt;Default&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item blog&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;blog-single-alter.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/blog-single-alter.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Blog Single - &lt;span&gt;Alternative&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item blog&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;blog-single-simple.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/blog-single-simple.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Blog Single - &lt;span&gt;Simple&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item blog&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;blog-archive.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/blog-archive.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Blog Archive - &lt;span&gt;Default&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item blog&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;blog-archive-2.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/blog-archive-2.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Blog Archive - &lt;span&gt;Classic&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item blog&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;blog-archive-3.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/blog-archive-3.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Blog Archive - &lt;span&gt;Grid&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;about-me.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/about-me.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;About Me&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;about-me-fluid.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/about-me-fluid.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;About Me Fluid&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;about-me-2.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/about-me-2.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;About Me 2&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;about-me-2-fluid.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/about-me-2-fluid.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;About Me 2 Fluid&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;contact.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/contact.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;Contact&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;contact-fluid.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/contact-fluid.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;Contact Fluid&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;contact-simple.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/contact-simple.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;Contact Simple&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;page-404.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/page-404.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;404 Error&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;page-404-2.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/page-404-2.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;404 Error 2&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;page-faq.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/page-faq.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;FAQ&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;page-pricing.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/page-pricing.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;Pricing&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;search-results.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/search-results.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;Search Results&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;page-password.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/page-password.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;Password Protected&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;page-dummy-classic.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/page-dummy-classic.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;Dummy Page Classic&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;page-dummy-classic-sidebar-left.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/page-dummy-classic-sidebar-left.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;Dummy Page Sidebar Left&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;page-dummy-classic-sidebar-right.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/page-dummy-classic-sidebar-right.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;Dummy Page Sidebar Right&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;page-dummy-modern.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/page-dummy-modern.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Pages - &lt;span&gt;Dummy Page Motern&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+
+          &lt;div class=&quot;isotope-item pages&quot; &gt;
+
+            
+            &lt;div class=&quot;demo-item wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;div class=&quot;demo-img&quot;&gt;
+                &lt;a href=&quot;footer-styles.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;assets/img/demo-only/footer-styles.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;demo-title&quot;&gt;
+                &lt;h2&gt;Other - &lt;span&gt;Footer Styles&lt;/span&gt;&lt;/h2&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+          &lt;/div&gt;
+          
+
+        &lt;/div&gt;
+        &lt;!-- End isotope items wrap --&gt;
+
+
+        &lt;!-- Begin isotope pagination
+        ============================== --&gt;
+        &lt;!-- &lt;div class=&quot;isotope-pagination&quot;&gt;
+          &lt;div class=&quot;iso-load-more&quot;&gt;
+            &lt;a class=&quot;btn btn-dark-bordered btn-lg&quot; href=&quot;&quot;&gt;View More&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt; --&gt;
+        &lt;!-- End isotope pagination --&gt;
+
+      &lt;/div&gt;
+      &lt;!-- End isotope --&gt;
+
+    &lt;/div&gt; &lt;!-- /.isotope-wrap --&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;call-to-action-section bg-gray-3 margin-top-45&quot;&gt;
+    &lt;div class=&quot;full-cover for-light-style bg-image&quot;
+         style=&quot;background-image: url(assets/img/pattern/bg-pattern-2-light.png); background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;full-cover for-dark-style bg-image&quot;
+         style=&quot;background-image: url(assets/img/pattern/bg-pattern-2-dark.png); background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;call-to-action-inner tt-wrap&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-12 text-center&quot;&gt;
+
+          &lt;div class=&quot;custom-heading custom-heading-lg text-center&quot;&gt;
+            &lt;div class=&quot;custom-heading-inner tt-wrap&quot;&gt;
+              &lt;h1 class=&quot;custom-heading-title wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot; &gt;24/7 Support&lt;/h1&gt;
+              &lt;hr class=&quot;hr-short wow fadeInUp&quot; data-wow-delay=&quot;.3s&quot;&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;div class=&quot;margin-top-30 max-width-800 margin-auto wow fadeInUp&quot; data-wow-delay=&quot;.5s&quot;&gt;
+            &lt;p&gt;Our team is always ready to provide you with free premium 24/7 support in case you have any questions about this template. Our knowledge base and information resources can be your reliable guide being organized in a simple manner, so you can easily find what you need to build a great website.&lt;/p&gt;
+
+            &lt;div class=&quot;margin-top-30&quot;&gt;
+              &lt;a href=&quot;page-dummy-modern.html&quot; class=&quot;btn btn-dark margin-top-5 margin-right-5 wow fadeInUp&quot; data-wow-delay=&quot;.7s&quot;&gt;View More&lt;/a&gt;
+              &lt;a href=&quot;contact.html&quot; class=&quot;btn btn-primary margin-top-5 wow fadeInUp&quot; data-wow-delay=&quot;.9s&quot;&gt;Contacts&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+
+  &lt;section id=&quot;footer&quot; class=&quot;footer-dark no-margin-top&quot;&gt;
+    &lt;div class=&quot;footer-inner&quot;&gt;
+      &lt;div class=&quot;footer-container tt-wrap&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-md-3 wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+
+            &lt;div id=&quot;footer-logo&quot;&gt;
+              &lt;a href=&quot;index.html&quot; class=&quot;logo-dark&quot;&gt;&lt;img src=&quot;assets/img/logo-dark.png&quot; alt=&quot;logo&quot;&gt;&lt;/a&gt;
+              &lt;a href=&quot;index.html&quot; class=&quot;logo-light&quot;&gt;&lt;img src=&quot;assets/img/logo-light.png&quot; alt=&quot;logo&quot;&gt;&lt;/a&gt;
+
+
+
+            &lt;/div&gt;
+
+          &lt;/div&gt;
+          &lt;div class=&quot;col-md-5&quot;&gt;
+
+            &lt;div class=&quot;footer-text wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;
+              &lt;h4 class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.3s&quot;&gt;Creative Photo Studio&lt;/h4&gt;
+              We are a team of creative photographers specializing in producing quality photography content, which varies in styles and genres. We can handle one-day shoots as well as long term relationships.
+            &lt;/div&gt;
+
+          &lt;/div&gt;
+          &lt;div class=&quot;col-md-4&quot;&gt;
+
+            &lt;div class=&quot;social-buttons&quot;&gt;
+              &lt;ul&gt;
+                &lt;li class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.3s&quot;&gt;&lt;a href=&quot;#&quot;
+                       class=&quot;btn btn-social-min btn-default btn-rounded-full &quot; title=&quot;Follow me on Facebook&quot;
+                       target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.4s&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-social-min btn-default btn-rounded-full&quot;
+                       title=&quot;Follow me on Twitter&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.5s&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-social-min btn-default btn-rounded-full&quot;
+                       title=&quot;Follow me on Google+&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-google-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.6s&quot;&gt;&lt;a href=&quot;#&quot;
+                       class=&quot;btn btn-social-min btn-default btn-rounded-full&quot; title=&quot;Follow me on Pinterest&quot;
+                       target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-pinterest&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.7s&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-social-min btn-default btn-rounded-full&quot;
+                       title=&quot;Follow me on Dribbble&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-dribbble&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.8s&quot;&gt;&lt;a href=&quot;contact.html&quot; class=&quot;btn btn-social-min btn-default btn-rounded-full&quot;
+                       title=&quot;Drop me a line&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-envelope&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/div&gt;
+
+            
+
+&lt;form class=&quot;rd-form rd-mailform form-inline&quot; data-form-output=&quot;form-output-global&quot; data-form-type=&quot;contact&quot; method=&quot;post&quot; action=&quot;assets/bat/rd-mailform.php&quot;&gt;
+
+      &lt;div class=&quot;form-wrap&quot;&gt;
+        &lt;input class=&quot;form-input&quot; id=&quot;contact-email&quot; type=&quot;email&quot; name=&quot;email&quot; data-constraints=&quot;@Email @Required&quot;&gt;
+        &lt;label class=&quot;form-label&quot; for=&quot;contact-email&quot;&gt;E-mail&lt;/label&gt;
+      &lt;/div&gt;
+
+      &lt;button class=&quot;button btn btn-primary form-button&quot; type=&quot;submit&quot;&gt;Send&lt;/button&gt;
+&lt;/form&gt;
+
+
+
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;footer-bottom&quot;&gt;
+        &lt;div class=&quot;footer-container tt-wrap&quot;&gt;
+          &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-md-6 col-md-push-6&quot;&gt;
+
+              &lt;ul class=&quot;footer-menu&quot;&gt;
+                &lt;li class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.1s&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.3s&quot;&gt;&lt;a href=&quot;about-me.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+                &lt;li class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.5s&quot;&gt;&lt;a href=&quot;albums-grid-fluid-2.html&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+                &lt;li class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.7s&quot;&gt;&lt;a href=&quot;blog-list-grid.html&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+                &lt;li class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;.9s&quot;&gt;&lt;a href=&quot;page-faq.html&quot;&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+                &lt;li class=&quot;wow fadeInUp&quot; data-wow-delay=&quot;1.1s&quot;&gt;&lt;a href=&quot;contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+              &lt;/ul&gt;
+
+            &lt;/div&gt;
+            &lt;div class=&quot;col-md-6 col-md-pull-6&quot;&gt;
+
+              &lt;div class=&quot;footer-copyright&quot;&gt;
+                &lt;p&gt;&amp;copy; 2017 / All rights reserved&lt;/p&gt;
+              &lt;/div&gt;
+
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;a href=&quot;#body&quot; class=&quot;scrolltotop sm-scroll&quot; title=&quot;Scroll to top&quot;&gt;&lt;i class=&quot;fa fa-chevron-up&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;/section&gt;
+
+&lt;/div&gt;
+
+
+&lt;div class=&quot;snackbars&quot; id=&quot;form-output-global&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;assets/vendor/jquery/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/vendor/bootstrap/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;assets/vendor/animsition/js/animsition.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/vendor/jquery.easing.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/vendor/isotope.pkgd.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/vendor/imagesloaded.pkgd.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/vendor/owl-carousel/js/owl.carousel.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/vendor/jquery.mousewheel.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/vendor/ytplayer/js/jquery.mb.YTPlayer.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/vendor/lightgallery/js/lightgallery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/vendor/lightgallery/js/lightgallery-plugins.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/vendor/rd-navbar/js/core.min.js&quot;&gt;&lt;/script&gt;
+
+
+&lt;script src=&quot;assets/js/theme.js&quot;&gt;&lt;/script&gt;
+
+
+&lt;/body&gt;
+</pre>
+</section>
+
+
+<section id="javascript">
+	<div class="page-header"><h3>Javascript</h3><hr class="notop"></div>
+<p>	<strong>jQuery</strong> - is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.&nbsp;For more information: <a href="http://jquery.com/" target="_blank">http://www.jquery.com</a></p>
+<p>	<em><strong>Note:</strong></em> The initialization of the elements, libs and features is made by the file named &quot;<strong>theme.js</strong>&quot; which is located in the folder named&nbsp;&quot;<strong>js</strong>&quot;.</p>
+<p>&nbsp;</p>
+</section>
+
+
+<section id="customization_styles">
+	<div class="page-header"><h3>Customization & Styles</h3><hr class="notop"></div>
+	<h4 id="helper_classes">Helper classes</h4>
+	<p>This template contains some extra prepared helper classes you can use. All helper classes are located in the file "<strong>helper.css</strong>". You are free to use these classes to customize your web site.</p>
+
+	<br>
+	<h4 id="template_styles">Template Styles</h4>
+	<p>This template contains one color styles - light (default).</p>
+
+
+
+<p>Example:</p>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- ===========
+///// Body /////
+================
+* Use class &quot;animsition&quot; to enable page transition while page loads.
+* Use class &quot;tt-boxed&quot; to enable page boxed layout globally (affects all elements containing class &quot;tt-wrap&quot;).
+* Use class &quot;tt-dark-style&quot; to enable theme dark style.
+--&gt;
+&lt;body id=&quot;body&quot; class=&quot;animsition tt-boxed&quot;&gt;
+
+	...
+	
+</pre>
+
+	<br>
+	<div class="alert">
+		<strong>Note:</strong> The code is well commented, this makes much easier to customize it. Take the time to explore it, there is much explained.
+	</div>
+</section>
+
+
+<section id="sliders_carousels">
+	<div class="page-header"><h3>Sliders & Carousels</h3><hr class="notop"></div>
+<h4 id="sliders_carousels_owl_carousel">Content Carousel</h4>
+<p>Touch enabled jQuery plugin that lets you create beautiful responsive carousel sliders.</p>
+
+<h5>Basic HTML Markup for Content Carousel:</h5>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Begin content carousel (http://www.owlcarousel.owlgraphic.com)
+====================================================================
+* Use class &quot;nav-outside&quot; for outside nav (requires boxed layout).
+* Use class &quot;nav-outside-top&quot; for outside top nav (requires enough space at the top of the carousel).
+* Use class &quot;nav-bottom-right&quot; for bottom right nav.
+* Use class &quot;nav-rounded&quot; for rounded nav.
+* Use class &quot;nav-light&quot; to enable nav light style.
+* Use class &quot;dots-outside&quot; for outside dots (requires enough space at the bottom of the carousel).
+* Use class &quot;dots-left&quot;, &quot;dots-right&quot; or &quot;dots-center-right&quot; to align dots.
+* Use class &quot;dots-rounded&quot; for rounded dots.
+* Use class &quot;owl-mousewheel&quot; to enable mousewheel support.
+* Use class &quot;cursor-grab&quot; to enable cursor grab icon (no effect on links!).
+* Use class &quot;cc-hover-light&quot;, &quot;cc-hover-dark&quot; or &quot;cc-hover-zoom&quot; to enable carousel items hover effect.
+* Use class &quot;cc-height-1&quot;, &quot;cc-height-2&quot;, &quot;cc-height-3&quot;, &quot;cc-height-4&quot;, &quot;cc-height-5&quot;, &quot;cc-height-6&quot; or &quot;cc-height-full&quot; to set carousel height (do not use with data-autoheight=&quot;true&quot;!!!).
+* Use class &quot;cc-height-m&quot; to set full height for small screens (do not use with data-autoheight=&quot;true&quot;!!!).
+================================================================
+* Available carousel data attributes:
+		data-items=&quot;5&quot;.......................(items visible on desktop)
+		data-tablet-landscape=&quot;4&quot;............(items visible on mobiles)
+		data-tablet-portrait=&quot;3&quot;.............(items visible on mobiles)
+		data-mobile-landscape=&quot;2&quot;............(items visible on tablets)
+		data-mobile-portrait=&quot;1&quot;.............(items visible on tablets)
+		data-loop=&quot;true&quot;.....................(true/false)
+		data-margin=&quot;10&quot;.....................(space between items)
+		data-center=&quot;true&quot;...................(true/false)
+		data-start-position=&quot;0&quot;..............(item start position)
+		data-animate-in=&quot;fadeIn&quot;.............(more animations: http://daneden.github.io/animate.css/)
+		data-animate-out=&quot;fadeOut&quot;...........(more animations: http://daneden.github.io/animate.css/)
+		data-mouse-drag=&quot;false&quot;..............(true/false)
+		data-touch-drag=&quot;false&quot;..............(true/false)
+		data-autoheight=&quot;true&quot;...............(true/false)
+		data-autoplay=&quot;true&quot;.................(true/false)
+		data-autoplay-timeout=&quot;5000&quot;.........(milliseconds)
+		data-autoplay-hover-pause=&quot;true&quot;.....(true/false)
+		data-autoplay-speed=&quot;800&quot;............(milliseconds)
+		data-drag-end-speed=&quot;800&quot;............(milliseconds)
+		data-nav=&quot;true&quot;......................(true/false)
+		data-nav-speed=&quot;800&quot;.................(milliseconds)
+		data-dots=&quot;false&quot;....................(true/false)
+		data-dots-speed=&quot;800&quot;................(milliseconds)
+--&gt;
+&lt;div class=&quot;owl-carousel&quot; data-items=&quot;1&quot; data-nav=&quot;true&quot;&gt;
+ 
+	&lt;!-- Begin carousel item 
+	========================= --&gt;
+	&lt;div class=&quot;cc-item&quot;&gt;
+		your content here...
+	&lt;/div&gt;
+	&lt;!-- End carousel item --&gt;	
+ 
+	&lt;!-- Begin carousel item 
+	========================= --&gt;
+	&lt;div class=&quot;cc-item&quot;&gt;
+		your content here...
+	&lt;/div&gt;
+	&lt;!-- End carousel item --&gt;	
+ 
+	&lt;!-- Begin carousel item 
+	========================= --&gt;
+	&lt;div class=&quot;cc-item&quot;&gt;
+		your content here...
+	&lt;/div&gt;
+	&lt;!-- End carousel item --&gt;	
+ 
+&lt;/div&gt;
+&lt;!-- End content carousel --&gt;
+</pre>
+
+<p>Note: Content Carousel based on popular OWL Carousel. More information about OWL Carousel:&nbsp;<a href="http://www.owlcarousel.owlgraphic.com" target="_blank">http://www.owlcarousel.owlgraphic.com</a></p>
+</section>
+
+<section id="video_background">
+	<div class="page-header"><h3>Video background</h3><hr class="notop"></div>
+<h4 id="video_background_basic_html_markup_for_video_background">Basic HTML Markup for video background:</h4>
+<p>An open source jQuery component to easily build your custom Youtube player or to use a Youtube video as background for your page.</p>
+
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Begin YTPlayer (Youtube video background)
+=======================================================
+NOTE: Replace videoURL with your own (videoURL:'your-youtube-video-URL'). 
+Do not forget to add your background image for mobile devices (because the video background doesn't work on mobile devices).
+YTPlayer may not work in the local computer. It works properly only if used under a web server.
+More info about YTPlayer: https://github.com/pupunzi/jquery.mb.YTPlayer --&gt;
+&lt;div class=&quot;youtube-bg full-cover&quot; 
+style=&quot;background-image: url(assets/img/video-bg/video-bg-1.jpg); background-position: 50% 50%;&quot;
+data-property=&quot;{
+	videoURL: 'https://youtu.be/6OVVsld_YkY?list=PLxYZWWItIp7tdFaI8erS6wzjCDWi9ndee',
+	containment: 'self',
+	quality: 'default',
+	startAt: 12,
+	stopAt: 80,
+	autoPlay: true,
+	loop: true,
+	mute: true,
+	showControls: false,
+	showYTLogo: false,
+	realfullscreen: true,
+	addRaster: false,
+	optimizeDisplay: true,
+	stopMovieOnBlur: true
+}&quot;&gt;
+
+&lt;/div&gt;
+&lt;!-- End YTPlayer (Youtube video background) --&gt;
+</pre>
+<p>More information about YTPlayer:&nbsp;<a href="https://github.com/pupunzi/jquery.mb.YTPlayer" target="_blank">https://github.com/pupunzi/jquery.mb.YTPlayer</a></p>
+</section>
+
+
+<section id="contact_form">
+	<div class="page-header"><h3>Contact Form</h3><hr class="notop"></div>
+<p>This template includes a working contact form. Proceed as follows in order to configure it.</p>
+<p>Open file "<strong>contact.html</strong>" or whatever contact page variation you want to use. Find and configure the following code:</p>
+
+<pre class="prettyprint lang-html linenums">
+&lt;form class=&quot;rd-form rd-mailform&quot; data-form-output=&quot;form-output-global&quot; data-form-type=&quot;contact&quot;
+      method=&quot;post&quot; action=&quot;assets/bat/rd-mailform.php&quot;&gt;
+  &lt;div class=&quot;form-wrap&quot;&gt;
+    &lt;input class=&quot;form-input&quot; id=&quot;contact-name&quot; type=&quot;text&quot; name=&quot;name&quot;
+           data-constraints=&quot;@Required&quot;&gt;
+    &lt;label class=&quot;form-label&quot; for=&quot;contact-name&quot;&gt;Your Name&lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-wrap&quot;&gt;
+    &lt;input class=&quot;form-input&quot; id=&quot;contact-phone&quot; type=&quot;text&quot; name=&quot;phone&quot;
+           data-constraints=&quot;@Numeric&quot;&gt;
+    &lt;label class=&quot;form-label&quot; for=&quot;contact-phone&quot;&gt;Phone&lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-wrap&quot;&gt;
+    &lt;label class=&quot;form-label&quot; for=&quot;contact-message&quot;&gt;Your Message&lt;/label&gt;
+    &lt;textarea class=&quot;form-input&quot; id=&quot;contact-message&quot; name=&quot;message&quot;
+              data-constraints=&quot;@Required&quot;&gt;&lt;/textarea&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-wrap&quot;&gt;
+    &lt;input class=&quot;form-input&quot; id=&quot;form-email&quot; type=&quot;email&quot; name=&quot;email&quot;
+           data-constraints=&quot;@Email @Required&quot;&gt;
+    &lt;label class=&quot;form-label&quot; for=&quot;form-email&quot;&gt;E-mail&lt;/label&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;btn btn-primary&quot; type=&quot;submit&quot;&gt;Send Message&lt;/button&gt;
+&lt;/form&gt;
+</pre>
+
+	<h4>Form mode configuration</h4>
+	<p>RD Mailform allows to use mail form in three modes:</p>
+	<ul class="list-marked">
+		<li><b>Contact form</b> - contact;
+		</li>
+		<li><b>Booking form</b> - order;
+		</li>
+		<li><b>Newsletter form</b> - subscribe;
+		</li>
+	</ul>
+
+	<p>In order to change form working mode you should add hidden form-type field to target form HTML code, where respectable form mode is set as a value.</p>
+	<pre class="prettyprint lang-html linenums">&lt;!-- RD Mailform --&gt;
+&lt;form class='rd-mailform' method="post" action="bat/rd-mailform.php"&gt;
+  &lt;!-- RD Mailform Type --&gt;
+  &lt;input type="hidden" data-form-type="contact" value="contact"/&gt;
+  &lt;!-- END RD Mailform Type --&gt;
+&lt;/form&gt;
+&lt;!-- END RD Mailform --&gt;
+</pre>
+
+	<h4>Mail configuration for messages delivery</h4>
+	<p>In order to set up the email address to send the e-mails (sent with the help of RD Mailform @version 3.2.0), please replace in bat/rd-mailform.config.json file, value of recipientEmail field to recipient email.</p>
+	<pre class="prettyprint lang-html linenums">"recipients" : "test@demolink.com" </pre>
+	<h4>Form fields configuration</h4>
+	<p>Mail form RD Mailform allows you to use the following field types:</p>
+	<ul>
+		<li>
+			<h6>Text field</h6>
+			<pre class="prettyprint linenums">&lt;input type="text" name="name" data-constraints="@NotEmpty" placeholder="Name:"/&gt;</pre>
+		</li>
+		<li>
+			<h6>Date selector</h6>
+			<pre class="prettyprint linenums">&lt;div class="form-group" &gt;
+  &lt;input type="date" data-constraints="@Date" name="date" placeholder="Date:" class="form-control"/&gt;
+ &lt;/div&gt;</pre>
+		</li>
+		<li>
+			<h6>Text area</h6>
+			<pre class="prettyprint linenums">&lt;textarea type="text" name="message" data-constraints="@NotEmpty" placeholder="Message:"&gt;&lt;/textarea&gt;</pre>
+		</li>
+	</ul>
+	<h4>Form fields validation setup</h4>
+	<p>Mail form <b>RD Mailform</b> supports form fields dynamic validation. You should add data-constraints data attribute to target field HTML code in order to implement this validation for target form.</p>
+	<p>There are following validation types available:</p>
+	<ul class="list-marked">
+		<li><b>@LettersOnly</b> - field’s value should be set to letters only;
+		</li>
+		<li><b>@NumbersOnly</b> - field’s value should be set to numbers only;
+		</li>
+		<li><b>@NotEmpty</b> - field must be filled in;
+		</li>
+		<li><b>@Email</b> - field’s value should be set to email address;
+		</li>
+		<li><b>@Phone</b> - field’s value should be set to phone number in the international format;
+		</li>
+		<li><b>@Date</b> - field’s value should be set to date in MM / DD / YYYY format;
+		</li>
+		<li><b>@SelectRequired</b> - at least one of menu options must be selected.
+		</li>
+	</ul>
+	<p>For instance,</p>
+	<pre class="prettyprint lang-html linenums">&lt;div class="form-group" &gt;
+  &lt;label data-add-placeholder for="mailform-input-textarea"&gt; Message &lt;/label&gt;
+  &lt;textarea name="message" id="mailform-input-textarea" data-constraints="@NotEmpty"&gt;&lt;/textarea&gt;
+&lt;/div&gt;</pre>
+	<h4>Form informing messages configuration</h4>
+	<p>Mail form <b>RD Mailform</b> allows you to set custom informing messages, such as fields validation error messages or messages on successful/unsuccessful form submitting.</p>
+	<pre class="prettyprint lang-html linenums">if (plugins.rdMailForm.length) {
+    var i, j, k,
+      msg = {
+        'MF000': 'Successfully sent!',
+        'MF001': 'Recipients are not set!',
+        'MF002': 'Form will not work locally!',
+        'MF003': 'Please, define email field in your form!',
+        'MF004': 'Please, define type of your form!',
+        'MF254': 'Something went wrong with PHPMailer!',
+        'MF255': 'Aw, snap! Something went wrong.'
+      };
+
+    for (i = 0; i &lt; plugins.rdMailForm.length; i++) {
+      var $form = $(plugins.rdMailForm[i]),
+        formHasCaptcha = false;
+
+      $form.attr('novalidate', 'novalidate').ajaxForm({
+        data: {
+          "form-type": $form.attr("data-form-type") || "contact",
+          "counter": i
+        },
+        beforeSubmit: function (arr, $form, options) {
+          if (isNoviBuilder)
+            return;
+
+          var form = $(plugins.rdMailForm[this.extraData.counter]),
+            inputs = form.find("[data-constraints]"),
+            output = $("#" + form.attr("data-form-output")),
+            captcha = form.find('.recaptcha'),
+            captchaFlag = true;
+
+          output.removeClass("active error success");
+
+          if (isValidated(inputs, captcha)) {
+
+            // veify reCaptcha
+            if(captcha.length) {
+              var captchaToken = captcha.find('.g-recaptcha-response').val(),
+                captchaMsg = {
+                  'CPT001': 'Please, setup you "site key" and "secret key" of reCaptcha',
+                  'CPT002': 'Something wrong with google reCaptcha'
+                }
+
+              formHasCaptcha = true;
+
+              $.ajax({
+                method: "POST",
+                url: "bat/reCaptcha.php",
+                data: {'g-recaptcha-response': captchaToken},
+                async: false
+              })
+                .done(function (responceCode) {
+                  if (responceCode != 'CPT000') {
+                    if (output.hasClass("snackbars")) {
+                      output.html(' &lt;p&gt; &lt;span class="icon text-middle mdi mdi-check icon-xxs"&gt; &lt;/span&gt; &lt;span&gt;' + captchaMsg[responceCode] + ' &lt;/span&gt; &lt;/p&gt;')
+
+                      setTimeout(function () {
+                        output.removeClass("active");
+                      }, 3500);
+
+                      captchaFlag = false;
+                    } else {
+                      output.html(captchaMsg[responceCode]);
+                    }
+
+                    output.addClass("active");
+                  }
+                });
+            }
+
+            if(!captchaFlag) {
+              return false;
+            }
+
+            form.addClass('form-in-process');
+
+            if (output.hasClass("snackbars")) {
+              output.html(' &lt;p&gt; &lt;span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"&gt; &lt;/span&gt; &lt;span&gt;Sending &lt;/span&gt; &lt;/p&gt;');
+              output.addClass("active");
+            }
+          } else {
+            return false;
+          }
+        },
+        error: function (result) {
+          if (isNoviBuilder)
+            return;
+
+          var output = $("#" + $(plugins.rdMailForm[this.extraData.counter]).attr("data-form-output")),
+            form = $(plugins.rdMailForm[this.extraData.counter]);
+
+          output.text(msg[result]);
+          form.removeClass('form-in-process');
+
+          if(formHasCaptcha) {
+            grecaptcha.reset();
+          }
+        },
+        success: function (result) {
+          if (isNoviBuilder)
+            return;
+
+          var form = $(plugins.rdMailForm[this.extraData.counter]),
+            output = $("#" + form.attr("data-form-output"));
+
+          form
+            .addClass('success')
+            .removeClass('form-in-process');
+
+          if(formHasCaptcha) {
+            grecaptcha.reset();
+          }
+
+          result = result.length === 5 ? result : 'MF255';
+          output.text(msg[result]);
+
+          if (result === "MF000") {
+            if (output.hasClass("snackbars")) {
+              output.html(' &lt;p&gt; &lt;span class="icon text-middle mdi mdi-check icon-xxs"&gt; &lt;/span&gt; &lt;span&gt;' + msg[result] + ' &lt;/span&gt; &lt;/p&gt;');
+            } else {
+              output.addClass("active success");
+            }
+          } else {
+            if (output.hasClass("snackbars")) {
+              output.html('  &lt;p class="snackbars-left"&gt; &lt;span class="icon icon-xxs mdi mdi-alert-outline text-middle"&gt; &lt;/span&gt; &lt;span&gt;' + msg[result] + ' &lt;/span&gt; &lt;/p&gt;');
+            } else {
+              output.addClass("active error");
+            }
+          }
+
+          form.clearForm();
+          form.find('input, textarea').blur();
+
+          setTimeout(function () {
+            output.removeClass("active error success");
+            form.removeClass('success');
+          }, 3500);
+        }
+      });
+    }
+  }
+</pre>
+	<h4>SMTP server configuration</h4>
+	<p>SMTP server setting does not relate to <b>RD Mailform</b> form settings at all.</p>
+	<p>In order to send your site messages via SMTP-server you'll need to refer to official PhpMailer (library, used in form) documentation or check this tutorial from official documentation.</p>
+	<ul class="list-marked">
+		<li><a href="http://phpmailer.worxware.com/?pg=examplebsmtp">http://phpmailer.worxware.com/?pg=examplebsmtp</a></li>
+	</ul>
+	<p class="alert alert-warning">Please, note: mail form extension does not work locally. You should upload site to corresponding hosting server in order to send emails.</p>
+	<h4>Configuring spam and abuse protection</h4>
+	<p><b>RD Mailform</b> uses <b>Google reCAPTCHA</b> for spam protection.</p>
+	<p class="alert alert-warning">Pay attention: in order to disable Google reCAPTCHA, just delete a section of html code, wrapped in comments "&lt;!--Google captcha--&gt;" - "&lt;!-- End google captcha--&gt;".</p>
+	<h6>Getting Started with Google ReCaptcha</h6>
+	<p>To manage Google ReCaptcha, you should:</p>
+	<ul class="list-marked">
+		<li>Register your domain at Google reCaptcha website and get a pair of API-keys (a pair of keys consists of site key and secret).</li>
+		<li>Specify your API-keys in bat/reCaptcha.php file in $siteKey and $secret variables at the beginning of the file:
+			<pre class="prettyprint linenums">$siteKey = 'You site key here';
+$secret = 'You secret key here';</pre>
+		</li>
+		<li>Paste this section to html and specify your site key in  <b>data-attribute data-sitekey=""  </b>
+		</li>
+	</ul>
+	<p>You can find more detailed instructions at Google ReCaptcha official website.</p>
+	<h4>Google ReCaptcha Marking</h4>
+	<p>The basic marking for ReCaptcha looks the following way:</p>
+	<pre class="prettyprint lang-html linenums">&lt;!--Google captcha--&gt;
+  &lt;div class="form-wrap"&gt;
+    &lt;div id="captcha1" data-sitekey="You site key here" class="recaptcha"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;!-- End google captcha--&gt;</pre>
+	<p class="alert alert-warning">Pay attention: id attribute and .recaptcha class are required.</p>
+	<h4>Google ReCaptcha Setup</h4>
+	<p>Google Recaptcha supports the following settings:</p>
+	<ul class="list-marked">
+		<li>Changing size;</li>
+		<li>Changing color scheme.</li>
+	</ul>
+	<h4>Changing Google ReCaptcha Size</h4>
+	<p>To change widget size, specify in data-attribute data-size one of the following size values:</p>
+	<ul class="list-marked">
+		<li>compact;</li>
+		<li>normal (default).</li>
+	</ul>
+	<p>The sample code looks the following way:</p>
+	<pre class="prettyprint lang-html linenums">&lt;!--Google captcha--&gt;
+  &lt;div class="form-wrap"&gt;
+    &lt;div id="captcha1" data-sitekey="You site key here" data-size="compact" class="recaptcha"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;!-- End google captcha--&gt;</pre>
+	<h4>Changing Google ReCaptcha widget color scheme</h4>
+	<p>To change widget color scheme, specify in the data-attribute <b>data-theme</b> one of the following variants:</p>
+	<ul class="list-marked">
+		<li>dark;</li>
+		<li>light (default).</li>
+	</ul>
+	<p>  Sample code looks the following way:</p>
+	<pre class="prettyprint lang-html linenums">&lt;!--Google captcha--&gt;
+  &lt;div class="form-wrap"&gt;
+    &lt;div id="captcha1" data-sitekey="You site key here" data-theme="dark"class="recaptcha"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;!-- End google captcha--&gt;</pre>
+
+</section>
+
+
+<section id="icons">
+	<div class="page-header"><h3>Icons</h3><hr class="notop"></div>
+<p>	<strong>Font Awesome -</strong> gives you scalable vector icons that can instantly be customized &mdash; size, color, drop shadow, and anything that can be done with the power of CSS.</p>
+<h4 id="icons_html_markup">HTML Markup:</h4>
+<pre class="prettyprint lang-js linenums">
+&lt;i class=&quot;fa fa-search&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-folder-open&quot;&gt;&lt;/i&gt;
+...</pre>
+<p>	For more information, please visit this site:&nbsp;<a href="http://fontawesome.io" target="_blank">http://fontawesome.io</a></p>
+</section>
+
+
+<section id="fonts">
+	<div class="page-header"><h3>Fonts</h3><hr class="notop"></div>
+	<h4 id="fonts_fonts_in_use">Fonts in use:</h4>
+	<p>	<strong>Google Fonts:</strong></p>
+	<ul>	
+		<li><strong>Poppins</strong> (global font)</li>
+	</ul>
+	<p>Please take a look in the <strong>&lt;head&gt;</strong> part of the website and you will find this tag:</p>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Google fonts (https://www.google.com/fonts) --&gt;
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&quot; rel=&quot;stylesheet&quot;&gt; &lt;!-- Global font --&gt;
+</pre>
+	<p>To change the font, first go to <a href="http://www.google.com/webfonts" target="_blank">http://www.google.com/webfonts</a> choose a font/fonts and use the generated code.</p>
+</section>
+
+
+<section id="source_credits">
+	<div class="page-header"><h3>Source &amp; Credits</h3><hr class="notop"></div>
+	<br>
+
+	<strong>Fonts:</strong></p>
+	<ul>
+		<li>Google Fonts - <a href="http://www.google.com/webfonts" target="_blank">http://www.google.com/webfonts</a></li>
+		<li>Font Icons - <a href="http://fontawesome.io" target="_blank">http://fontawesome.io</a></li>
+	</ul>
+
+	<strong>Scripts:</strong>
+	<ul>
+		<li>jQuery - <a href="http://www.jquery.com/" target="_blank">http://www.jquery.com</a></li>
+		<li>Bootstrap framework - <a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com</a></li>
+		<li>Animsition - <a href="http://git.blivesta.com/animsition/" target="_blank">http://git.blivesta.com/animsition/</a></li>
+		<li>jQuery Mouse Wheel - <a href="https://github.com/jquery/jquery-mousewheel" target="_blank">https://github.com/jquery/jquery-mousewheel</a></li>
+		<li>Owl Carousel - <a href="http://owlgraphic.com/owlcarousel" target="_blank">http://owlgraphic.com/owlcarousel</a></li>
+		<li>YTPlayer - <a href="https://github.com/pupunzi/jquery.mb.YTPlayer" target="_blank">https://github.com/pupunzi/jquery.mb.YTPlayer</a></li>
+		<li>Animate.css - <a href="http://daneden.me/animate" target="_blank">http://daneden.me/animate</a></li>
+		<li>Isotope - <a href="http://isotope.metafizzy.co" target="_blank">http://isotope.metafizzy.co</a></li>
+		<li>Imagesloaded - <a href="http://imagesloaded.desandro.com/" target="_blank">http://imagesloaded.desandro.com/</a></li>
+		<li>Lightgallery - <a href="http://sachinchoolur.github.io/lightGallery/" target="_blank">http://sachinchoolur.github.io/lightGallery/</a></li>
+		<li>Jquery Easing - <a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">http://gsgd.co.uk/sandbox/jquery/easing/</a></li>
+		<li>Google Maps - <a href="https://developers.google.com/maps/documentation/javascript/tutorial" target="_blank">https://developers.google.com/maps/documentation/javascript/tutorial</a></li>
+
+	</ul>
+
+	<strong>Images:</strong>
+	<ul>
+		<li><a href="https://unsplash.com/" target="_blank">https://unsplash.com/</a></li>
+		<li><a href="https://www.goodfon.com/" target="_blank">https://www.goodfon.com/</a></li>
+	</ul>
+
+	<strong>Other:</strong>
+	<ul>
+		<li><a href="http://fontawesome.io/cheatsheet/" target="_blank">Cheatsheet</a></li>
+	</ul>
+</section>
+
+
+
+
+	</div>
+</body>
+</html>
