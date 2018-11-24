@@ -17,11 +17,11 @@ body {
 }
 
 a {
-  color: #24a3d8;
+  color: #61c1b1;
 }
 
 a:hover, a:focus {
-  color: #1d82ac;
+  color: #61c1b1;
   text-decoration: none;
 }
 
