@@ -12790,7 +12790,7 @@ body.modal-open {
 /* footer bottom
 ================= */
 .footer-bottom {
-  background-color: #ffffff;
+  background-color: #61c1b19a;
   margin-top: 40px;
   padding: 20px 0;
   border-top: 1px solid rgba(128, 128, 128, 0.15);
@@ -12805,11 +12805,12 @@ body.modal-open {
 /* footer copyright */
 .footer-copyright {
   font-size: 12px;
-  color: #888888;
+  color: #e2dfdf;
 }
 
 .footer-copyright p {
   margin-bottom: 0;
+  text-align: center;
 }
 
 @media (max-width: 991px) {
@@ -13036,7 +13037,7 @@ body.tt-boxed #footer.footer-minimal .footer-container {
 }
 
 #footer.footer-dark .footer-bottom {
-  background-color: #0a0a0a;
+  background-color: #61c1b19a;
   border-top-color: rgba(128, 128, 128, 0.08);
 }
 
